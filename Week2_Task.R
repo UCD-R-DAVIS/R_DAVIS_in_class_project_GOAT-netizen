@@ -77,4 +77,13 @@ which(myelephants == max(myelephants))
 rm(elephant2_lg)
 rm(elephant2_kg)
 
+getwd()
+
+setwd()
+
+d <- read.csv("./data/tail_length.csv")
+
+#dir.create("./lectures")
+
+
 
