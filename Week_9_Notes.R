@@ -124,3 +124,5 @@ map2_chr(rownames(mtcars), mtcars$mpg, function(x, y) paste(x, "gets", y, "miles
                                                             per gallon"))
 # pmap for more than two inputs
 paste(rownames(mtcars), "gets", mtcars$mpg, "miles per gallon")
+
+
